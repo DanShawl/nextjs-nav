@@ -1,11 +1,25 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import NavBar from '../components/NavBar'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
-      <Head>
+    <div
+      // className="flex min-h-screen flex-col items-center justify-center py-2"
+      className="col-span-3"
+    >
+      <h1>hello</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium
+        ratione dolores eaque nesciunt commodi dignissimos alias mollitia, cum
+        magnam incidunt, provident tempora corrupti optio vel pariatur inventore
+        ea perspiciatis omnis. Natus dolor ipsa corrupti praesentium enim.
+        Repellat laudantium facere tempore dolores odit in, accusamus recusandae
+        dolor aliquid, perferendis necessitatibus perspiciatis.
+      </p>
+      {/* <NavBar /> */}
+      {/* <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -78,7 +92,7 @@ const Home: NextPage = () => {
           Powered by{' '}
           <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
         </a>
-      </footer>
+      </footer> */}
     </div>
   )
 }
